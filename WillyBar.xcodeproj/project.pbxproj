@@ -3,27 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DB21800F24C8461100692E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21800E24C8461100692E06 /* AppDelegate.swift */; };
-		DB21801124C8461100692E06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21801024C8461100692E06 /* SceneDelegate.swift */; };
-		DB21801324C8461100692E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21801224C8461100692E06 /* ViewController.swift */; };
+		DB21801324C8461100692E06 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21801224C8461100692E06 /* TabbarVC.swift */; };
 		DB21801624C8461100692E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB21801424C8461100692E06 /* Main.storyboard */; };
 		DB21801824C8461200692E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB21801724C8461200692E06 /* Assets.xcassets */; };
 		DB21801B24C8461200692E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB21801924C8461200692E06 /* LaunchScreen.storyboard */; };
+		DB21802324C84BBD00692E06 /* HotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802224C84BBD00692E06 /* HotVC.swift */; };
+		DB21802524C84BD500692E06 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802424C84BD500692E06 /* CategoryVC.swift */; };
+		DB21802724C84C6300692E06 /* DiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802624C84C6300692E06 /* DiceVC.swift */; };
+		DB21802924C84C8900692E06 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802824C84C8900692E06 /* FavoritesVC.swift */; };
+		DB21802B24C84CB600692E06 /* SetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802A24C84CB600692E06 /* SetVC.swift */; };
+		DB21803224C84EB100692E06 /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802D24C84EB100692E06 /* ExampleBackgroundContentView.swift */; };
+		DB21803324C84EB100692E06 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802E24C84EB100692E06 /* ExampleBouncesContentView.swift */; };
+		DB21803424C84EB100692E06 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21802F24C84EB100692E06 /* ExampleBasicContentView.swift */; };
+		DB21803524C84EB100692E06 /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21803024C84EB100692E06 /* ExampleHighlightableContentView.swift */; };
+		DB21803624C84EB100692E06 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21803124C84EB100692E06 /* ExampleIrregularityContentView.swift */; };
+		DB9F092924C93801004D0FDC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F092824C93801004D0FDC /* Extensions.swift */; };
+		DB9F092B24C93DC9004D0FDC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F092A24C93DC9004D0FDC /* BaseViewController.swift */; };
+		DB9F092D24C95D1A004D0FDC /* HotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F092C24C95D1A004D0FDC /* HotCell.swift */; };
+		DB9F092F24C96092004D0FDC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F092E24C96092004D0FDC /* CategoryCell.swift */; };
+		DBEE4CFF24CE7E1700E005B3 /* Dice.svga in Resources */ = {isa = PBXBuildFile; fileRef = DBEE4CFE24CE7E1700E005B3 /* Dice.svga */; };
+		DBEE4D0124CE8B9200E005B3 /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE4D0024CE8B9200E005B3 /* DetailedVC.swift */; };
+		DBEE4D0324CE8BD700E005B3 /* DetailedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE4D0224CE8BD700E005B3 /* DetailedCell.swift */; };
+		DBEE4D0524CEA96000E005B3 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE4D0424CEA96000E005B3 /* FavoritesCell.swift */; };
+		DBEE4D0724CEACBD00E005B3 /* TypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE4D0624CEACBD00E005B3 /* TypeVC.swift */; };
+		DBEE4D0924CEAD8500E005B3 /* TypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE4D0824CEAD8500E005B3 /* TypeCell.swift */; };
+		DBEE4D0B24CEB50A00E005B3 /* SetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE4D0A24CEB50A00E005B3 /* SetCell.swift */; };
+		E07FB2643B33066157C14B57 /* Pods_WillyBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0769EFD3935ACF47F32F86 /* Pods_WillyBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		567F13960EE6B5B7578E9165 /* Pods-WillyBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WillyBar.release.xcconfig"; path = "Target Support Files/Pods-WillyBar/Pods-WillyBar.release.xcconfig"; sourceTree = "<group>"; };
+		872AB3C1357E548DA6857D1F /* Pods-WillyBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WillyBar.debug.xcconfig"; path = "Target Support Files/Pods-WillyBar/Pods-WillyBar.debug.xcconfig"; sourceTree = "<group>"; };
 		DB21800B24C8461100692E06 /* WillyBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WillyBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB21800E24C8461100692E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB21801024C8461100692E06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB21801224C8461100692E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB21801224C8461100692E06 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
 		DB21801524C8461100692E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB21801724C8461200692E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB21801A24C8461200692E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB21801C24C8461200692E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB21802224C84BBD00692E06 /* HotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotVC.swift; sourceTree = "<group>"; };
+		DB21802424C84BD500692E06 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		DB21802624C84C6300692E06 /* DiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceVC.swift; sourceTree = "<group>"; };
+		DB21802824C84C8900692E06 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		DB21802A24C84CB600692E06 /* SetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVC.swift; sourceTree = "<group>"; };
+		DB21802D24C84EB100692E06 /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		DB21802E24C84EB100692E06 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		DB21802F24C84EB100692E06 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		DB21803024C84EB100692E06 /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		DB21803124C84EB100692E06 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		DB9F092824C93801004D0FDC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DB9F092A24C93DC9004D0FDC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DB9F092C24C95D1A004D0FDC /* HotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCell.swift; sourceTree = "<group>"; };
+		DB9F092E24C96092004D0FDC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		DBEE4CFE24CE7E1700E005B3 /* Dice.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dice.svga; sourceTree = "<group>"; };
+		DBEE4D0024CE8B9200E005B3 /* DetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
+		DBEE4D0224CE8BD700E005B3 /* DetailedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedCell.swift; sourceTree = "<group>"; };
+		DBEE4D0424CEA96000E005B3 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
+		DBEE4D0624CEACBD00E005B3 /* TypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeVC.swift; sourceTree = "<group>"; };
+		DBEE4D0824CEAD8500E005B3 /* TypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCell.swift; sourceTree = "<group>"; };
+		DBEE4D0A24CEB50A00E005B3 /* SetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCell.swift; sourceTree = "<group>"; };
+		FE0769EFD3935ACF47F32F86 /* Pods_WillyBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WillyBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07FB2643B33066157C14B57 /* Pods_WillyBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B9864ABE6FE78FF9A143FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0769EFD3935ACF47F32F86 /* Pods_WillyBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33508D00A5BA562D59A2D54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				872AB3C1357E548DA6857D1F /* Pods-WillyBar.debug.xcconfig */,
+				567F13960EE6B5B7578E9165 /* Pods-WillyBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB21800224C8461100692E06 = {
 			isa = PBXGroup;
 			children = (
+				DBEE4CFE24CE7E1700E005B3 /* Dice.svga */,
 				DB21800D24C8461100692E06 /* WillyBar */,
 				DB21800C24C8461100692E06 /* Products */,
+				D33508D00A5BA562D59A2D54 /* Pods */,
+				6B9864ABE6FE78FF9A143FCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +122,41 @@
 			isa = PBXGroup;
 			children = (
 				DB21800E24C8461100692E06 /* AppDelegate.swift */,
-				DB21801024C8461100692E06 /* SceneDelegate.swift */,
-				DB21801224C8461100692E06 /* ViewController.swift */,
+				DB9F092A24C93DC9004D0FDC /* BaseViewController.swift */,
+				DB21801224C8461100692E06 /* TabbarVC.swift */,
+				DB21802224C84BBD00692E06 /* HotVC.swift */,
+				DB9F092C24C95D1A004D0FDC /* HotCell.swift */,
+				DB21802424C84BD500692E06 /* CategoryVC.swift */,
+				DB9F092E24C96092004D0FDC /* CategoryCell.swift */,
+				DB21802624C84C6300692E06 /* DiceVC.swift */,
+				DB21802824C84C8900692E06 /* FavoritesVC.swift */,
+				DBEE4D0424CEA96000E005B3 /* FavoritesCell.swift */,
+				DBEE4D0624CEACBD00E005B3 /* TypeVC.swift */,
+				DBEE4D0824CEAD8500E005B3 /* TypeCell.swift */,
+				DB21802A24C84CB600692E06 /* SetVC.swift */,
+				DBEE4D0A24CEB50A00E005B3 /* SetCell.swift */,
+				DBEE4D0024CE8B9200E005B3 /* DetailedVC.swift */,
+				DBEE4D0224CE8BD700E005B3 /* DetailedCell.swift */,
+				DB21802C24C84EB100692E06 /* TabbarStyle */,
+				DB9F092824C93801004D0FDC /* Extensions.swift */,
 				DB21801424C8461100692E06 /* Main.storyboard */,
-				DB21801724C8461200692E06 /* Assets.xcassets */,
 				DB21801924C8461200692E06 /* LaunchScreen.storyboard */,
+				DB21801724C8461200692E06 /* Assets.xcassets */,
 				DB21801C24C8461200692E06 /* Info.plist */,
 			);
 			path = WillyBar;
+			sourceTree = "<group>";
+		};
+		DB21802C24C84EB100692E06 /* TabbarStyle */ = {
+			isa = PBXGroup;
+			children = (
+				DB21802D24C84EB100692E06 /* ExampleBackgroundContentView.swift */,
+				DB21802E24C84EB100692E06 /* ExampleBouncesContentView.swift */,
+				DB21802F24C84EB100692E06 /* ExampleBasicContentView.swift */,
+				DB21803024C84EB100692E06 /* ExampleHighlightableContentView.swift */,
+				DB21803124C84EB100692E06 /* ExampleIrregularityContentView.swift */,
+			);
+			path = TabbarStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB21801F24C8461200692E06 /* Build configuration list for PBXNativeTarget "WillyBar" */;
 			buildPhases = (
+				52C5D29B3ABA425E40B2E295 /* [CP] Check Pods Manifest.lock */,
 				DB21800724C8461100692E06 /* Sources */,
 				DB21800824C8461100692E06 /* Frameworks */,
 				DB21800924C8461100692E06 /* Resources */,
+				AFCBBE663AC0906F61EA2E2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +221,82 @@
 			files = (
 				DB21801B24C8461200692E06 /* LaunchScreen.storyboard in Resources */,
 				DB21801824C8461200692E06 /* Assets.xcassets in Resources */,
+				DBEE4CFF24CE7E1700E005B3 /* Dice.svga in Resources */,
 				DB21801624C8461100692E06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52C5D29B3ABA425E40B2E295 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WillyBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCBBE663AC0906F61EA2E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WillyBar/Pods-WillyBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WillyBar/Pods-WillyBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WillyBar/Pods-WillyBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB21800724C8461100692E06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB21801324C8461100692E06 /* ViewController.swift in Sources */,
+				DBEE4D0B24CEB50A00E005B3 /* SetCell.swift in Sources */,
+				DB21803624C84EB100692E06 /* ExampleIrregularityContentView.swift in Sources */,
+				DBEE4D0924CEAD8500E005B3 /* TypeCell.swift in Sources */,
+				DB21802324C84BBD00692E06 /* HotVC.swift in Sources */,
+				DB21803324C84EB100692E06 /* ExampleBouncesContentView.swift in Sources */,
+				DB21801324C8461100692E06 /* TabbarVC.swift in Sources */,
+				DB21802924C84C8900692E06 /* FavoritesVC.swift in Sources */,
+				DB9F092B24C93DC9004D0FDC /* BaseViewController.swift in Sources */,
+				DB21803224C84EB100692E06 /* ExampleBackgroundContentView.swift in Sources */,
+				DB21803524C84EB100692E06 /* ExampleHighlightableContentView.swift in Sources */,
+				DBEE4D0124CE8B9200E005B3 /* DetailedVC.swift in Sources */,
+				DBEE4D0524CEA96000E005B3 /* FavoritesCell.swift in Sources */,
+				DBEE4D0324CE8BD700E005B3 /* DetailedCell.swift in Sources */,
+				DB21802524C84BD500692E06 /* CategoryVC.swift in Sources */,
+				DB9F092924C93801004D0FDC /* Extensions.swift in Sources */,
+				DB21803424C84EB100692E06 /* ExampleBasicContentView.swift in Sources */,
+				DB9F092F24C96092004D0FDC /* CategoryCell.swift in Sources */,
 				DB21800F24C8461100692E06 /* AppDelegate.swift in Sources */,
-				DB21801124C8461100692E06 /* SceneDelegate.swift in Sources */,
+				DB9F092D24C95D1A004D0FDC /* HotCell.swift in Sources */,
+				DB21802B24C84CB600692E06 /* SetVC.swift in Sources */,
+				DBEE4D0724CEACBD00E005B3 /* TypeVC.swift in Sources */,
+				DB21802724C84C6300692E06 /* DiceVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +438,12 @@
 		};
 		DB21802024C8461200692E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872AB3C1357E548DA6857D1F /* Pods-WillyBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WillyBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +457,12 @@
 		};
 		DB21802124C8461200692E06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567F13960EE6B5B7578E9165 /* Pods-WillyBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WillyBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

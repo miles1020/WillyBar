@@ -1,0 +1,6 @@
+framework module Pods_WillyBar {
+  umbrella header "Pods-WillyBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

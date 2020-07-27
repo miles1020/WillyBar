@@ -1,0 +1,87 @@
+PODS:
+  - Alamofire (5.2.1)
+  - ESTabBarController-swift (2.8.0)
+  - Google-Mobile-Ads-SDK (7.62.0):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.6.2):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.6.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.6.0)"
+  - GoogleUtilities/Reachability (6.6.0):
+    - GoogleUtilities/Logger
+  - Hero (1.5.0)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - pop (1.0.12)
+  - PromisesObjC (1.2.9)
+  - Protobuf (3.12.0)
+  - SSZipArchive (2.2.3)
+  - SVGAPlayer (2.5.4):
+    - SVGAPlayer/Core (= 2.5.4)
+    - SVGAPlayer/ProtoFiles (= 2.5.4)
+  - SVGAPlayer/Core (2.5.4):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.4):
+    - Protobuf (~> 3.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - ESTabBarController-swift
+  - Google-Mobile-Ads-SDK
+  - Hero
+  - pop (~> 1.0)
+  - SVGAPlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ESTabBarController-swift
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - Hero
+    - nanopb
+    - pop
+    - PromisesObjC
+    - Protobuf
+    - SSZipArchive
+    - SVGAPlayer
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  Google-Mobile-Ads-SDK: c92c27666fbf684c964259785a6b3cdd3068e06f
+  GoogleAppMeasurement: 8cd1f289d60e629cf16ab03363b9e89c776b9651
+  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+  SVGAPlayer: ca9c869316b468d995994c7fe82b9bd8645a0787
+
+PODFILE CHECKSUM: 697aadc9daf00a24050a3e6240af99daf6e4baa6
+
+COCOAPODS: 1.8.3
